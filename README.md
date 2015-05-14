@@ -7,3 +7,6 @@
 ![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/buttonAnimation.gif)
 ###加号按钮旋,旋转的同时产生弹性缩放效果
 ![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/plusBtn.gif)
+
+##绘制圆环,具有弹性效果
+![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/circle.gif)
