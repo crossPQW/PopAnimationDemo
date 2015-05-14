@@ -10,7 +10,7 @@
 #import "SHListTableViewCell.h"
 #import "SHButtonViewController.h"
 #import "SHDecayViewController.h"
-
+#import <POP.h>
 static NSString * const cellID   = @"cellID";
 
 @interface SHListViewController ()
@@ -51,9 +51,23 @@ static NSString * const cellID   = @"cellID";
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     
-    UIViewController *vc = [self viewControllerForRowAtIndexPath:indexPath];
-    vc.title             = [self titleForRowAtIndexPath:indexPath];
+    UIViewController *vc              = [self viewControllerForRowAtIndexPath:indexPath];
+    vc.title                          = [self titleForRowAtIndexPath:indexPath];
+    
+    CALayer *layer                    = vc.view.layer;
+    [layer removeAllAnimations];
+    POPSpringAnimation *xAnimaiton    = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
+    POPSpringAnimation *sizeAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerSize];
+    xAnimaiton.fromValue              = @([UIScreen mainScreen].bounds.size.width);
+    xAnimaiton.springBounciness       = 16;
+    xAnimaiton.springSpeed            = 12;
+    
+    sizeAnimation.fromValue           = [NSValue valueWithCGSize:CGSizeMake(64, 114)];
+    
+    [layer pop_addAnimation:xAnimaiton forKey:@"position"];
+    [layer pop_addAnimation:sizeAnimation forKey:@"size"];
     [self.navigationController pushViewController:vc animated:YES];
+    
     
 }
 #pragma mark - 事件相应

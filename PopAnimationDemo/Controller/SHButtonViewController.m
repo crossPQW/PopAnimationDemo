@@ -16,6 +16,7 @@
 @property (nonatomic, strong) UIActivityIndicatorView *juhua;
 @property (nonatomic, strong) UILabel *errorLabel;
 @property (nonatomic, strong) SHLikeBtn *likeBtn;
+@property (nonatomic, assign) BOOL isRotate;
 @end
 
 @implementation SHButtonViewController
@@ -30,7 +31,8 @@
     [self setupLabel];
     [self setupJuhua];//创建菊花,之所以这么命名是因为那个控件名太长了啊摔
     [self setupLikeBtn];
-    
+    [self setupRotateBtn];
+    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithTitle:@"button" style:UIBarButtonItemStylePlain target:self action:@selector(btn)];
 }
 
 
@@ -55,6 +57,29 @@
     });
 }
 
+- (void)rotateBtnClick:(UIButton *)btn
+{
+    self.isRotate = !self.isRotate;
+    
+    CALayer *layer               = btn.layer;
+    [layer pop_removeAllAnimations];//先移除所有动画
+    POPSpringAnimation *anim     = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerSize];
+    POPSpringAnimation *rotation = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerRotation];
+    anim.springBounciness        = 20;
+    anim.springSpeed             = 16;
+    
+    if (self.isRotate) {
+        anim.toValue             = [NSValue valueWithCGSize:CGSizeMake(64, 64)];
+        rotation.toValue         = @(M_PI_4);
+        btn.tintColor            = [UIColor colorWithRed:0/255.f green:73/255.0f blue:131/255.0f alpha:1.f];
+    }else{
+        anim.toValue             = [NSValue valueWithCGSize:CGSizeMake(32, 32)];
+        rotation.toValue         = @(0);
+        btn.tintColor            = [UIColor colorWithRed:170/255.f green:70/255.0f blue:48/255.0f alpha:1.f];
+    }
+    [layer pop_addAnimation:anim forKey:@"size"];
+    [layer pop_addAnimation:rotation forKey:@"rotate"];
+}
 #pragma mark - 私有方法
 - (void)setupButton
 {
@@ -87,7 +112,7 @@
     errorLabel.font                                      = [UIFont fontWithName:@"Avenir-Light" size:18];
     errorLabel.textColor                                 = [UIColor colorWithRed:170/255.f green:70/255.0f blue:48/255.0f alpha:1.f];
     errorLabel.translatesAutoresizingMaskIntoConstraints = NO;
-    errorLabel.text                                      = @"(*^__^*) 嘻嘻……登不上";
+    errorLabel.text                                      = @"(˘̩̩̩ε˘̩ƪ) 嘻嘻……登不上";
     errorLabel.textAlignment                             = NSTextAlignmentCenter;
     [self.view insertSubview:errorLabel belowSubview:self.btn];
     
@@ -122,6 +147,16 @@
     self.likeBtn       = likeBtn;
     likeBtn.frame      = CGRectMake(100, 100, 20, 20);
     [self.view addSubview:likeBtn];
+}
+
+- (void)setupRotateBtn
+{
+    self.isRotate = YES;
+    UIButton *btn = [[UIButton alloc] init];
+    btn.frame     = CGRectMake(100, 200, 64, 64);
+    [btn setImage:[UIImage imageNamed:@"cross"] forState:UIControlStateNormal];
+    [self.view addSubview:btn];
+    [btn addTarget:self action:@selector(rotateBtnClick:) forControlEvents:UIControlEventTouchUpInside];
 }
 
 #pragma mark - animation
