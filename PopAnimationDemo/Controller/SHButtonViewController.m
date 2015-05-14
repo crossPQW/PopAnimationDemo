@@ -30,6 +30,7 @@
     [self setupLabel];
     [self setupJuhua];//创建菊花,之所以这么命名是因为那个控件名太长了啊摔
     [self setupLikeBtn];
+    
 }
 
 

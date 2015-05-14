@@ -18,6 +18,8 @@
 		38ACD4D21B02FB74004201C7 /* SHDecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4D11B02FB74004201C7 /* SHDecayViewController.m */; };
 		38ACD4D51B033970004201C7 /* SHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4D41B033970004201C7 /* SHButton.m */; };
 		38F4CF1B1B044C5000BF7147 /* SHLikeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F4CF1A1B044C5000BF7147 /* SHLikeBtn.m */; };
+		38F4CF1F1B04738900BF7147 /* buttonAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38F4CF1D1B04738900BF7147 /* buttonAnimation.gif */; };
+		38F4CF201B04738900BF7147 /* animationList.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38F4CF1E1B04738900BF7147 /* animationList.gif */; };
 		BF363B72F4275BCCAB0990F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E9E17F4D24D044192E6DCA /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -55,6 +57,8 @@
 		38ACD4D41B033970004201C7 /* SHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHButton.m; sourceTree = "<group>"; };
 		38F4CF191B044C5000BF7147 /* SHLikeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLikeBtn.h; sourceTree = "<group>"; };
 		38F4CF1A1B044C5000BF7147 /* SHLikeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLikeBtn.m; sourceTree = "<group>"; };
+		38F4CF1D1B04738900BF7147 /* buttonAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = buttonAnimation.gif; sourceTree = "<group>"; };
+		38F4CF1E1B04738900BF7147 /* animationList.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = animationList.gif; sourceTree = "<group>"; };
 		59E9E17F4D24D044192E6DCA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9529119303073DCF56B0B55 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -101,6 +105,7 @@
 		38ACD49D1B02E916004201C7 /* PopAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				38F4CF1C1B04737600BF7147 /* screenShot */,
 				38ACD4C91B02F0FD004201C7 /* View */,
 				38ACD4C81B02F0F2004201C7 /* Model */,
 				38ACD4C71B02F0EC004201C7 /* Controller */,
@@ -170,6 +175,15 @@
 				38F4CF1A1B044C5000BF7147 /* SHLikeBtn.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		38F4CF1C1B04737600BF7147 /* screenShot */ = {
+			isa = PBXGroup;
+			children = (
+				38F4CF1D1B04738900BF7147 /* buttonAnimation.gif */,
+				38F4CF1E1B04738900BF7147 /* animationList.gif */,
+			);
+			path = screenShot;
 			sourceTree = "<group>";
 		};
 		861B74BC255F2BBE9B0D4751 /* Frameworks */ = {
@@ -271,6 +285,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38F4CF1F1B04738900BF7147 /* buttonAnimation.gif in Resources */,
+				38F4CF201B04738900BF7147 /* animationList.gif in Resources */,
 				38ACD4AF1B02E916004201C7 /* LaunchScreen.xib in Resources */,
 				38ACD4AC1B02E916004201C7 /* Images.xcassets in Resources */,
 			);
