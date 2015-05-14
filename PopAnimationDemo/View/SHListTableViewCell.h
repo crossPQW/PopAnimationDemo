@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SHListTableViewCell.h
 //  PopAnimationDemo
 //
 //  Created by 黄少华 on 15/5/13.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface SHListTableViewCell : UITableViewCell
 
 @end
-

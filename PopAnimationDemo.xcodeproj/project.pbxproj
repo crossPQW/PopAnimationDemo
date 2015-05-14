@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		38ACD4A11B02E916004201C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4A01B02E916004201C7 /* main.m */; };
 		38ACD4A41B02E916004201C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4A31B02E916004201C7 /* AppDelegate.m */; };
-		38ACD4A71B02E916004201C7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4A61B02E916004201C7 /* ViewController.m */; };
-		38ACD4AA1B02E916004201C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38ACD4A81B02E916004201C7 /* Main.storyboard */; };
 		38ACD4AC1B02E916004201C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ACD4AB1B02E916004201C7 /* Images.xcassets */; };
 		38ACD4AF1B02E916004201C7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 38ACD4AD1B02E916004201C7 /* LaunchScreen.xib */; };
 		38ACD4BB1B02E917004201C7 /* PopAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4BA1B02E917004201C7 /* PopAnimationDemoTests.m */; };
+		38ACD4C61B02EC81004201C7 /* SHListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4C51B02EC81004201C7 /* SHListViewController.m */; };
+		38ACD4CC1B02F832004201C7 /* SHListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4CB1B02F832004201C7 /* SHListTableViewCell.m */; };
+		38ACD4CF1B02FB61004201C7 /* SHButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4CE1B02FB61004201C7 /* SHButtonViewController.m */; };
+		38ACD4D21B02FB74004201C7 /* SHDecayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4D11B02FB74004201C7 /* SHDecayViewController.m */; };
+		38ACD4D51B033970004201C7 /* SHButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4D41B033970004201C7 /* SHButton.m */; };
+		38F4CF1B1B044C5000BF7147 /* SHLikeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F4CF1A1B044C5000BF7147 /* SHLikeBtn.m */; };
+		BF363B72F4275BCCAB0990F2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59E9E17F4D24D044192E6DCA /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,19 +32,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EF1F79CC823A1842137FD84 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		38ACD49B1B02E916004201C7 /* PopAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ACD49F1B02E916004201C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38ACD4A01B02E916004201C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		38ACD4A21B02E916004201C7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		38ACD4A31B02E916004201C7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		38ACD4A51B02E916004201C7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		38ACD4A61B02E916004201C7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		38ACD4A91B02E916004201C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38ACD4AB1B02E916004201C7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		38ACD4AE1B02E916004201C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		38ACD4B41B02E917004201C7 /* PopAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ACD4B91B02E917004201C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38ACD4BA1B02E917004201C7 /* PopAnimationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopAnimationDemoTests.m; sourceTree = "<group>"; };
+		38ACD4C41B02EC81004201C7 /* SHListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SHListViewController.h; path = ../SHListViewController.h; sourceTree = "<group>"; };
+		38ACD4C51B02EC81004201C7 /* SHListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SHListViewController.m; path = ../SHListViewController.m; sourceTree = "<group>"; };
+		38ACD4CA1B02F832004201C7 /* SHListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHListTableViewCell.h; sourceTree = "<group>"; };
+		38ACD4CB1B02F832004201C7 /* SHListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHListTableViewCell.m; sourceTree = "<group>"; };
+		38ACD4CD1B02FB61004201C7 /* SHButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHButtonViewController.h; sourceTree = "<group>"; };
+		38ACD4CE1B02FB61004201C7 /* SHButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHButtonViewController.m; sourceTree = "<group>"; };
+		38ACD4D01B02FB74004201C7 /* SHDecayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHDecayViewController.h; sourceTree = "<group>"; };
+		38ACD4D11B02FB74004201C7 /* SHDecayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHDecayViewController.m; sourceTree = "<group>"; };
+		38ACD4D31B033970004201C7 /* SHButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHButton.h; sourceTree = "<group>"; };
+		38ACD4D41B033970004201C7 /* SHButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHButton.m; sourceTree = "<group>"; };
+		38F4CF191B044C5000BF7147 /* SHLikeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLikeBtn.h; sourceTree = "<group>"; };
+		38F4CF1A1B044C5000BF7147 /* SHLikeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLikeBtn.m; sourceTree = "<group>"; };
+		59E9E17F4D24D044192E6DCA /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9529119303073DCF56B0B55 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF363B72F4275BCCAB0990F2 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +84,8 @@
 				38ACD49D1B02E916004201C7 /* PopAnimationDemo */,
 				38ACD4B71B02E917004201C7 /* PopAnimationDemoTests */,
 				38ACD49C1B02E916004201C7 /* Products */,
+				BCC1905D659990814AD90936 /* Pods */,
+				861B74BC255F2BBE9B0D4751 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,11 +101,9 @@
 		38ACD49D1B02E916004201C7 /* PopAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				38ACD4A21B02E916004201C7 /* AppDelegate.h */,
-				38ACD4A31B02E916004201C7 /* AppDelegate.m */,
-				38ACD4A51B02E916004201C7 /* ViewController.h */,
-				38ACD4A61B02E916004201C7 /* ViewController.m */,
-				38ACD4A81B02E916004201C7 /* Main.storyboard */,
+				38ACD4C91B02F0FD004201C7 /* View */,
+				38ACD4C81B02F0F2004201C7 /* Model */,
+				38ACD4C71B02F0EC004201C7 /* Controller */,
 				38ACD4AB1B02E916004201C7 /* Images.xcassets */,
 				38ACD4AD1B02E916004201C7 /* LaunchScreen.xib */,
 				38ACD49E1B02E916004201C7 /* Supporting Files */,
@@ -96,6 +114,8 @@
 		38ACD49E1B02E916004201C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38ACD4A21B02E916004201C7 /* AppDelegate.h */,
+				38ACD4A31B02E916004201C7 /* AppDelegate.m */,
 				38ACD49F1B02E916004201C7 /* Info.plist */,
 				38ACD4A01B02E916004201C7 /* main.m */,
 			);
@@ -119,6 +139,56 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		38ACD4C71B02F0EC004201C7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				38ACD4C41B02EC81004201C7 /* SHListViewController.h */,
+				38ACD4C51B02EC81004201C7 /* SHListViewController.m */,
+				38ACD4CD1B02FB61004201C7 /* SHButtonViewController.h */,
+				38ACD4CE1B02FB61004201C7 /* SHButtonViewController.m */,
+				38ACD4D01B02FB74004201C7 /* SHDecayViewController.h */,
+				38ACD4D11B02FB74004201C7 /* SHDecayViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		38ACD4C81B02F0F2004201C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		38ACD4C91B02F0FD004201C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				38ACD4CA1B02F832004201C7 /* SHListTableViewCell.h */,
+				38ACD4CB1B02F832004201C7 /* SHListTableViewCell.m */,
+				38ACD4D31B033970004201C7 /* SHButton.h */,
+				38ACD4D41B033970004201C7 /* SHButton.m */,
+				38F4CF191B044C5000BF7147 /* SHLikeBtn.h */,
+				38F4CF1A1B044C5000BF7147 /* SHLikeBtn.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		861B74BC255F2BBE9B0D4751 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59E9E17F4D24D044192E6DCA /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BCC1905D659990814AD90936 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0EF1F79CC823A1842137FD84 /* Pods.debug.xcconfig */,
+				E9529119303073DCF56B0B55 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -126,9 +196,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 38ACD4BE1B02E917004201C7 /* Build configuration list for PBXNativeTarget "PopAnimationDemo" */;
 			buildPhases = (
+				4773D1709FD9168CDDE51B2E /* Check Pods Manifest.lock */,
 				38ACD4971B02E916004201C7 /* Sources */,
 				38ACD4981B02E916004201C7 /* Frameworks */,
 				38ACD4991B02E916004201C7 /* Resources */,
+				784E9866A71BEC74D5AD981B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -199,7 +271,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38ACD4AA1B02E916004201C7 /* Main.storyboard in Resources */,
 				38ACD4AF1B02E916004201C7 /* LaunchScreen.xib in Resources */,
 				38ACD4AC1B02E916004201C7 /* Images.xcassets in Resources */,
 			);
@@ -214,13 +285,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4773D1709FD9168CDDE51B2E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		784E9866A71BEC74D5AD981B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		38ACD4971B02E916004201C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38ACD4A71B02E916004201C7 /* ViewController.m in Sources */,
+				38ACD4CF1B02FB61004201C7 /* SHButtonViewController.m in Sources */,
+				38ACD4D51B033970004201C7 /* SHButton.m in Sources */,
+				38F4CF1B1B044C5000BF7147 /* SHLikeBtn.m in Sources */,
 				38ACD4A41B02E916004201C7 /* AppDelegate.m in Sources */,
+				38ACD4C61B02EC81004201C7 /* SHListViewController.m in Sources */,
+				38ACD4CC1B02F832004201C7 /* SHListTableViewCell.m in Sources */,
+				38ACD4D21B02FB74004201C7 /* SHDecayViewController.m in Sources */,
 				38ACD4A11B02E916004201C7 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -244,14 +353,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		38ACD4A81B02E916004201C7 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38ACD4A91B02E916004201C7 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		38ACD4AD1B02E916004201C7 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -347,6 +448,7 @@
 		};
 		38ACD4BF1B02E917004201C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EF1F79CC823A1842137FD84 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopAnimationDemo/Info.plist;
@@ -357,6 +459,7 @@
 		};
 		38ACD4C01B02E917004201C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9529119303073DCF56B0B55 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PopAnimationDemo/Info.plist;
@@ -418,6 +521,7 @@
 				38ACD4C01B02E917004201C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		38ACD4C11B02E917004201C7 /* Build configuration list for PBXNativeTarget "PopAnimationDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +530,7 @@
 				38ACD4C31B02E917004201C7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
