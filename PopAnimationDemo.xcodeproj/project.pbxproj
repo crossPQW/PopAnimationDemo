@@ -7,10 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3837AF2F1B047F6200F7362B /* plusBtn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3837AF2E1B047F6200F7362B /* plusBtn.gif */; };
 		3837AF321B04903B00F7362B /* SHCircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837AF311B04903B00F7362B /* SHCircleViewController.m */; };
 		3837AF351B04958D00F7362B /* SHCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3837AF341B04958D00F7362B /* SHCircleView.m */; };
 		3837AF371B04A24500F7362B /* circle.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3837AF361B04A24500F7362B /* circle.gif */; };
+		3837AF391B04A3F500F7362B /* plusRotate.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3837AF381B04A3F500F7362B /* plusRotate.gif */; };
 		38ACD4A11B02E916004201C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4A01B02E916004201C7 /* main.m */; };
 		38ACD4A41B02E916004201C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 38ACD4A31B02E916004201C7 /* AppDelegate.m */; };
 		38ACD4AC1B02E916004201C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38ACD4AB1B02E916004201C7 /* Images.xcassets */; };
@@ -39,12 +39,12 @@
 
 /* Begin PBXFileReference section */
 		0EF1F79CC823A1842137FD84 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
-		3837AF2E1B047F6200F7362B /* plusBtn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = plusBtn.gif; sourceTree = "<group>"; };
 		3837AF301B04903B00F7362B /* SHCircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCircleViewController.h; sourceTree = "<group>"; };
 		3837AF311B04903B00F7362B /* SHCircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCircleViewController.m; sourceTree = "<group>"; };
 		3837AF331B04958D00F7362B /* SHCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHCircleView.h; sourceTree = "<group>"; };
 		3837AF341B04958D00F7362B /* SHCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHCircleView.m; sourceTree = "<group>"; };
 		3837AF361B04A24500F7362B /* circle.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = circle.gif; sourceTree = "<group>"; };
+		3837AF381B04A3F500F7362B /* plusRotate.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = plusRotate.gif; sourceTree = "<group>"; };
 		38ACD49B1B02E916004201C7 /* PopAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38ACD49F1B02E916004201C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		38ACD4A01B02E916004201C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -194,7 +194,7 @@
 		38F4CF1C1B04737600BF7147 /* screenShot */ = {
 			isa = PBXGroup;
 			children = (
-				3837AF2E1B047F6200F7362B /* plusBtn.gif */,
+				3837AF381B04A3F500F7362B /* plusRotate.gif */,
 				38F4CF1D1B04738900BF7147 /* buttonAnimation.gif */,
 				38F4CF1E1B04738900BF7147 /* animationList.gif */,
 				3837AF361B04A24500F7362B /* circle.gif */,
@@ -302,10 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				38F4CF1F1B04738900BF7147 /* buttonAnimation.gif in Resources */,
+				3837AF391B04A3F500F7362B /* plusRotate.gif in Resources */,
 				38F4CF201B04738900BF7147 /* animationList.gif in Resources */,
 				3837AF371B04A24500F7362B /* circle.gif in Resources */,
 				38ACD4AF1B02E916004201C7 /* LaunchScreen.xib in Resources */,
-				3837AF2F1B047F6200F7362B /* plusBtn.gif in Resources */,
 				38ACD4AC1B02E916004201C7 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
