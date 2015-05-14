@@ -6,7 +6,7 @@
 ###类似于登陆失败抖动按钮,同时弹出提示
 ![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/buttonAnimation.gif)
 ###加号按钮旋,旋转的同时产生弹性缩放效果
-![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/plusBtn.gif)
+![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/plusRotate.gif)
 
 ##绘制圆环,具有弹性效果
 ![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/circle.gif)
