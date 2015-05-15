@@ -11,6 +11,7 @@
 #import "SHButtonViewController.h"
 #import "SHDecayViewController.h"
 #import "SHCircleViewController.h"
+#import "SHImageViewController.h"
 #import <POP.h>
 static NSString * const cellID   = @"cellID";
 
@@ -53,7 +54,7 @@ static NSString * const cellID   = @"cellID";
 {
     
     UIViewController *vc              = [self viewControllerForRowAtIndexPath:indexPath];
-    vc.title                          = [self titleForRowAtIndexPath:indexPath];
+    vc.title                          = [self titleForRowAtIndexPath:indexPath];    
     CALayer *layer                    = vc.view.layer;
     [layer removeAllAnimations];
     POPSpringAnimation *xAnimaiton    = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionX];
@@ -117,7 +118,8 @@ static NSString * const cellID   = @"cellID";
     if (!_items) {
         _items = @[@[@"按钮动画效果",[SHButtonViewController class]],
                    @[@"物理衰减效果",[SHDecayViewController class]],
-                   @[@"绘制圆形",[SHCircleViewController class]]
+                   @[@"绘制圆形",[SHCircleViewController class]],
+                   @[@"图片浏览",[SHImageViewController class]]
                    ];
     }
     return _items;
