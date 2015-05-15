@@ -11,4 +11,6 @@
 ##绘制圆环,具有弹性效果
 ![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/circle.gif)
 
+##图片缩放,拖动
+![image](https://github.com/crossPQW/PopAnimationDemo/blob/master/PopAnimationDemo/screenShot/image.gif)
 #更多动画效果持续研究中
