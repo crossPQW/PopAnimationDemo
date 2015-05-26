@@ -25,6 +25,9 @@
 		38E5B0591B059049005BB8A3 /* SHImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B0581B059049005BB8A3 /* SHImageView.m */; };
 		38E5B05B1B0599A6005BB8A3 /* d50735fae6cd7b8988bdc4fd0c2442a7d8330efe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 38E5B05A1B0599A6005BB8A3 /* d50735fae6cd7b8988bdc4fd0c2442a7d8330efe.jpg */; };
 		38E5B05D1B059DC7005BB8A3 /* image.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38E5B05C1B059DC7005BB8A3 /* image.gif */; };
+		38E5B0601B05BDDF005BB8A3 /* UIImage+Blur.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B05F1B05BDDF005BB8A3 /* UIImage+Blur.m */; };
+		38E5B0631B05BE04005BB8A3 /* FoldingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B0621B05BE04005BB8A3 /* FoldingView.m */; };
+		38E5B0661B05BE1F005BB8A3 /* SHFoldingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 38E5B0651B05BE1F005BB8A3 /* SHFoldingViewController.m */; };
 		38F4CF1B1B044C5000BF7147 /* SHLikeBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F4CF1A1B044C5000BF7147 /* SHLikeBtn.m */; };
 		38F4CF1F1B04738900BF7147 /* buttonAnimation.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38F4CF1D1B04738900BF7147 /* buttonAnimation.gif */; };
 		38F4CF201B04738900BF7147 /* animationList.gif in Resources */ = {isa = PBXBuildFile; fileRef = 38F4CF1E1B04738900BF7147 /* animationList.gif */; };
@@ -75,6 +78,12 @@
 		38E5B0581B059049005BB8A3 /* SHImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHImageView.m; sourceTree = "<group>"; };
 		38E5B05A1B0599A6005BB8A3 /* d50735fae6cd7b8988bdc4fd0c2442a7d8330efe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = d50735fae6cd7b8988bdc4fd0c2442a7d8330efe.jpg; sourceTree = "<group>"; };
 		38E5B05C1B059DC7005BB8A3 /* image.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = image.gif; sourceTree = "<group>"; };
+		38E5B05E1B05BDDF005BB8A3 /* UIImage+Blur.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Blur.h"; sourceTree = "<group>"; };
+		38E5B05F1B05BDDF005BB8A3 /* UIImage+Blur.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Blur.m"; sourceTree = "<group>"; };
+		38E5B0611B05BE04005BB8A3 /* FoldingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldingView.h; sourceTree = "<group>"; };
+		38E5B0621B05BE04005BB8A3 /* FoldingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldingView.m; sourceTree = "<group>"; };
+		38E5B0641B05BE1F005BB8A3 /* SHFoldingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHFoldingViewController.h; sourceTree = "<group>"; };
+		38E5B0651B05BE1F005BB8A3 /* SHFoldingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHFoldingViewController.m; sourceTree = "<group>"; };
 		38F4CF191B044C5000BF7147 /* SHLikeBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SHLikeBtn.h; sourceTree = "<group>"; };
 		38F4CF1A1B044C5000BF7147 /* SHLikeBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SHLikeBtn.m; sourceTree = "<group>"; };
 		38F4CF1D1B04738900BF7147 /* buttonAnimation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = buttonAnimation.gif; sourceTree = "<group>"; };
@@ -137,6 +146,8 @@
 		38ACD49E1B02E916004201C7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				38E5B05E1B05BDDF005BB8A3 /* UIImage+Blur.h */,
+				38E5B05F1B05BDDF005BB8A3 /* UIImage+Blur.m */,
 				38E5B05A1B0599A6005BB8A3 /* d50735fae6cd7b8988bdc4fd0c2442a7d8330efe.jpg */,
 				38ACD4AD1B02E916004201C7 /* LaunchScreen.xib */,
 				38ACD4AB1B02E916004201C7 /* Images.xcassets */,
@@ -178,6 +189,8 @@
 				3837AF311B04903B00F7362B /* SHCircleViewController.m */,
 				38E5B0541B058F70005BB8A3 /* SHImageViewController.h */,
 				38E5B0551B058F70005BB8A3 /* SHImageViewController.m */,
+				38E5B0641B05BE1F005BB8A3 /* SHFoldingViewController.h */,
+				38E5B0651B05BE1F005BB8A3 /* SHFoldingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -202,6 +215,8 @@
 				3837AF341B04958D00F7362B /* SHCircleView.m */,
 				38E5B0571B059049005BB8A3 /* SHImageView.h */,
 				38E5B0581B059049005BB8A3 /* SHImageView.m */,
+				38E5B0611B05BE04005BB8A3 /* FoldingView.h */,
+				38E5B0621B05BE04005BB8A3 /* FoldingView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -375,9 +390,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38E5B0631B05BE04005BB8A3 /* FoldingView.m in Sources */,
 				3837AF321B04903B00F7362B /* SHCircleViewController.m in Sources */,
 				38E5B0591B059049005BB8A3 /* SHImageView.m in Sources */,
 				3837AF351B04958D00F7362B /* SHCircleView.m in Sources */,
+				38E5B0661B05BE1F005BB8A3 /* SHFoldingViewController.m in Sources */,
+				38E5B0601B05BDDF005BB8A3 /* UIImage+Blur.m in Sources */,
 				38ACD4CF1B02FB61004201C7 /* SHButtonViewController.m in Sources */,
 				38ACD4D51B033970004201C7 /* SHButton.m in Sources */,
 				38F4CF1B1B044C5000BF7147 /* SHLikeBtn.m in Sources */,

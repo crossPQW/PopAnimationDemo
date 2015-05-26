@@ -12,6 +12,7 @@
 #import "SHDecayViewController.h"
 #import "SHCircleViewController.h"
 #import "SHImageViewController.h"
+#import "SHFoldingViewController.h"
 #import <POP.h>
 static NSString * const cellID   = @"cellID";
 
@@ -119,7 +120,8 @@ static NSString * const cellID   = @"cellID";
         _items = @[@[@"按钮动画效果",[SHButtonViewController class]],
                    @[@"物理衰减效果",[SHDecayViewController class]],
                    @[@"绘制圆形",[SHCircleViewController class]],
-                   @[@"图片浏览",[SHImageViewController class]]
+                   @[@"图片浏览",[SHImageViewController class]],
+                   @[@"牛逼的折叠效果",[SHFoldingViewController class]]
                    ];
     }
     return _items;

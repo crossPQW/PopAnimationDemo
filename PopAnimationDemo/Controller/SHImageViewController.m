@@ -41,6 +41,7 @@ typedef struct {
     [imageView addGestureRecognizer:recognizer];
     
     [self.view addSubview:imageView];
+    [self scaleDownView:imageView];
 }
 
 - (void)touchDown:(UIControl *)control
