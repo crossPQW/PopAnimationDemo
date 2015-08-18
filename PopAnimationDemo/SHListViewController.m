@@ -66,6 +66,8 @@ static NSString * const cellID   = @"cellID";
     
     sizeAnimation.fromValue           = [NSValue valueWithCGSize:CGSizeMake(64, 114)];
     
+    
+    
     [layer pop_addAnimation:xAnimaiton forKey:@"position"];
     [layer pop_addAnimation:sizeAnimation forKey:@"size"];
     [self.navigationController pushViewController:vc animated:YES];
